@@ -1,0 +1,26 @@
+{
+  "name": "wheel",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/busboy": "^1.5.4",
+    "@types/node": "^22.15.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "mime-types": "^3.0.1"
+  }
+}
